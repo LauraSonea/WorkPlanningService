@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>WorkPlanningApi.Messaging</AssemblyName>
+    <RootNamespace>WorkPlanningApi.Messaging</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkingPlanningApi.Service\WorkingPlanningApi.Service.csproj" />
+  </ItemGroup>
+
+</Project>
